@@ -63,6 +63,9 @@
     - Get process ID: `netstat -aon | findstr "<port number>"`
     - Use the process ID found: `tasklist /fi "PID eq <ID>`
 
+- **_Sort tasklist by mem usage_**
+    - `tasklist | sort /R /+68`
+
 - **_Elevate_**
     - `runas /user:machine_or_domain\user_name cmd`
 
