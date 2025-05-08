@@ -152,6 +152,9 @@
     - `syswrapper.sh restore-default & set-default &`
 -**_Device Information_**
     - `info`
+
+-**_Access CLI using rsa_**
+    - `-o HostKeyAlgorithms=+ssh-rsa`
 ---
 
 ### Printer
