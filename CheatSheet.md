@@ -149,9 +149,7 @@
 - **_Adopt a Device_**
     - `set-inform http://<server address>:8080/inform`
 - **_Factory Reset_**
-- **_Factory Reset_**
     - `syswrapper.sh restore-default & set-default &`
-- **_Device Information_**
 - **_Device Information_**
     - `info`
 - **_SSH into default device_**
