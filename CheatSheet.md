@@ -152,12 +152,15 @@
     - `syswrapper.sh restore-default & set-default &`
 - **_Device Information_**
     - `info`
-- **_No matching host key type_**
-    - `-o HostKeyAlgorithms=+ssh-rsa`
-- **_No matching MAC_**
-    - `-m hmac-sha1`
-- **_No matching key exchange method_**
-    - `-o KexAlgorithms=+diffie-hellman-group1-sha1`
+- **_SSH into default device_**
+    - `ssh ubnt@IPaddress`
+    - Password: `ubnt`
+    - **_No matching host key type_**
+        - `-o HostKeyAlgorithms=+ssh-rsa`
+    - **_No matching MAC_**
+        - `-m hmac-sha1`
+    - **_No matching key exchange method_**
+        - `-o KexAlgorithms=+diffie-hellman-group1-sha1`
 
 ---
 
