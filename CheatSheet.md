@@ -148,15 +148,15 @@
 
 - **_Adopt a Device_**
     - `set-inform http://<server address>:8080/inform`
--**_Factory Reset_**
+- **_Factory Reset_**
     - `syswrapper.sh restore-default & set-default &`
--**_Device Information_**
+- **_Device Information_**
     - `info`
--**_No matching host key type_**
+- **_No matching host key type_**
     - `-o HostKeyAlgorithms=+ssh-rsa`
--**_No matching MAC_**
+- **_No matching MAC_**
     - `-m hmac-sha1`
--**_No matching key exchange method_**
+- **_No matching key exchange method_**
     - `-o KexAlgorithms=+diffie-hellman-group1-sha1`
 
 ---
