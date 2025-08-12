@@ -152,9 +152,13 @@
     - `syswrapper.sh restore-default & set-default &`
 -**_Device Information_**
     - `info`
-
--**_Access CLI using rsa_**
+-**_No matching host key type_**
     - `-o HostKeyAlgorithms=+ssh-rsa`
+-**_No matching MAC_**
+    - `-m hmac-sha1`
+-**_No matching key exchange method_**
+    - `-o KexAlgorithms=+diffie-hellman-group1-sha1`
+
 ---
 
 ### Printer
